@@ -1,9 +1,9 @@
-# Approved direction A: paper storyboard
+# Paper storyboard direction
 
-Approved in this chat: cool light paper, black Chinese display typography,
-overlapping storyboard layers. Reference: the A panel of the generated direction
-board. Use a tiny red proofing mark and restrained shadows. No dark teal,
-mint/orange palette or progress-bar motif in this film.
+Visual brief: cool light paper, large black Chinese serif typography on the
+left and overlapping storyboard layers on the right. Use a tiny red proofing
+mark and restrained shadows. The title is the main focus; paper layers show
+separable scenes. Keep secondary labels quiet and preserve reading space.
 
 The illustration is an original AI-generated grayscale drawing. Paper planes,
 text, crop marks and timing remain editable React/CSS/SVG elements. CSS
