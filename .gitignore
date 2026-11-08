@@ -9,3 +9,5 @@
 *.mp3
 .venv/
 dist/
+examples/**/index.jsx
+examples/**/assets/fonts/

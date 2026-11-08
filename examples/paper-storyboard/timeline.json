@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "width": 1440,
+  "height": 810,
+  "fps": 30,
+  "durationInFrames": 180,
+  "shots": [
+    {
+      "id": "shot-1",
+      "file": "scene-0.tsx",
+      "startFrame": 0,
+      "durationFrames": 180
+    }
+  ]
+}
