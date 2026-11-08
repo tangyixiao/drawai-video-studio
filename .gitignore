@@ -1,0 +1,11 @@
+**/node_modules/
+**/.runtime/
+**/.out/
+**/__pycache__/
+*.pyc
+*.tgz
+*.mp4
+*.wav
+*.mp3
+.venv/
+dist/
