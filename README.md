@@ -70,6 +70,14 @@ The generated project keeps its timeline, scenes and assets editable. See the
 [upstream command reference](skills/drawai-video-studio/references/commands.md)
 for audio, synchronization, style source, rendering and Jianying exports.
 
+## Example: paper storyboard
+
+[Paper storyboard](examples/paper-storyboard/README.md) implements a selected
+light-paper direction with large black Chinese typography and staggered
+storyboard layers. It is a six-second silent visual pilot, with editable TSX,
+theme, timeline and an original AI-generated illustration. The example is
+separate from the installable skill ZIP.
+
 ## Validation and limits
 
 ```sh
