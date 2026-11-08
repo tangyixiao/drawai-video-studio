@@ -4,6 +4,8 @@ import { DUST, FIELD, INK, PAPER, SERIF, SANS, STAMP, SURFACE } from './theme'
 
 const ease = Easing.bezier(0.2, 0.8, 0.2, 1)
 const unit = (f: number, start: number, end: number) => interpolate(f, [start, end], [0, 1], { easing: ease, extrapolateLeft: 'clamp', extrapolateRight: 'clamp' })
+// Deterministic SVG grain, using the upstream scene-kit's paper dither technique.
+const grain = 'data:image/svg+xml;utf8,' + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" seed="7"/><feColorMatrix type="saturate" values="0"/></filter><rect width="160" height="160" filter="url(#n)"/></svg>')
 
 function Marks() {
   return <>{[[22, 22], [610, 22], [22, 390], [610, 390]].map(([x, y], i) => <svg key={i} style={{ position: 'absolute', left: x - 13, top: y - 13, width: 26, height: 26, overflow: 'visible' }}>
@@ -38,6 +40,7 @@ export default function Scene() {
   const end = unit(frame, 105, durationInFrames - 1)
   return <AbsoluteFill style={{ background: PAPER, overflow: 'hidden', color: INK }}>
     <AbsoluteFill style={{ background: `radial-gradient(ellipse at 18% 12%,${SURFACE},transparent 58%),linear-gradient(130deg,transparent 45%,${FIELD})` }} />
+    <AbsoluteFill style={{ backgroundImage: `url("${grain}")`, backgroundSize: '160px 160px', opacity: .055, mixBlendMode: 'multiply' }} />
     <div style={{ position: 'absolute', width: 1000, height: 280, left: 510, top: 593, background: 'rgba(68,77,101,.09)', filter: 'blur(42px)', transform: 'rotate(-10deg)' }} />
     <div style={{ position: 'absolute', inset: 0, transform: `translateX(${-end * 8}px) scale(${1 + end * .008})`, transformOrigin: '75% 45%' }}>
       {[0, 1, 2].map(level => <Sheet key={level} level={level} frame={frame} />)}
