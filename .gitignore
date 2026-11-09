@@ -11,3 +11,9 @@
 dist/
 examples/**/index.jsx
 examples/**/assets/fonts/
+
+work/
+
+*.log
+
+__pycache__/
