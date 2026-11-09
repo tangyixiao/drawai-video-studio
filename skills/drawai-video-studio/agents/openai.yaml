@@ -1,4 +1,7 @@
 interface:
+  icon_small: "./assets/logo.webp"
+  icon_large: "./assets/logo.webp"
+  brand_color: "#2F6BDB"
   display_name: "DrawAI 代码视频工作台"
   short_description: "用 Remotion、React 与三维场景制作可编辑视频，提供分镜、预览、声音、渲染与质检"
   default_prompt: "使用 $drawai-video-studio 把我的内容做成可编辑的视频，先建立分镜和短样片，再完成渲染与检查。"
