@@ -4,7 +4,7 @@
 
 <p align="center">用 Remotion、React 和可编辑分镜制作代码视频，从真实参考、短样片到渲染与质检。</p>
 
-<p align="center">[简体中文](README.zh-CN.md) · [English](README.md)</p>
+<p align="center"><a href="README.zh-CN.md">简体中文</a> · <a href="README.md">English</a></p>
 
 [![Stars](https://img.shields.io/github/stars/tangyixiao/drawai-video-studio?style=flat)](https://github.com/tangyixiao/drawai-video-studio/stargazers) [![CI](https://img.shields.io/github/actions/workflow/status/tangyixiao/drawai-video-studio/ci.yml?branch=main)](https://github.com/tangyixiao/drawai-video-studio/actions/workflows/ci.yml) [![License](https://img.shields.io/github/license/tangyixiao/drawai-video-studio)](LICENSE)
 

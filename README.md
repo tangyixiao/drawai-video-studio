@@ -4,7 +4,7 @@
 
 <p align="center">Make editable code-driven videos with Remotion and React, from real references and a short pilot to rendering and quality checks.</p>
 
-<p align="center">[简体中文](README.zh-CN.md) · [English](README.md)</p>
+<p align="center"><a href="README.zh-CN.md">简体中文</a> · <a href="README.md">English</a></p>
 
 [![Stars](https://img.shields.io/github/stars/tangyixiao/drawai-video-studio?style=flat)](https://github.com/tangyixiao/drawai-video-studio/stargazers) [![CI](https://img.shields.io/github/actions/workflow/status/tangyixiao/drawai-video-studio/ci.yml?branch=main)](https://github.com/tangyixiao/drawai-video-studio/actions/workflows/ci.yml) [![License](https://img.shields.io/github/license/tangyixiao/drawai-video-studio)](LICENSE)
 
