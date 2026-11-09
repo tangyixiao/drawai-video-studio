@@ -1,3 +1,5 @@
+<p><img src="skills/drawai-video-studio/assets/logo.webp" width="96" height="96" alt="drawai-video-studio logo"></p>
+
 # DrawAI Video Studio for Codex
 
 A local Codex skill for editable, code-driven video projects using Remotion,
