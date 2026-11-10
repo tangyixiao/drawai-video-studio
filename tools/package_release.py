@@ -5,6 +5,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 SKILL = 'drawai-video-studio'
+VERSION = '0.1.1'
 EXCLUDED = {'node_modules', '.runtime', '.out', '__pycache__', '.git'}
 
 
@@ -27,5 +28,5 @@ def package(output: Path):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--output', type=Path, default=ROOT / 'dist' / 'drawai-video-studio-v0.1.0.zip')
+    parser.add_argument('--output', type=Path, default=ROOT / 'dist' / f'{SKILL}-v{VERSION}.zip')
     print(package(parser.parse_args().output))

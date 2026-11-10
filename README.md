@@ -34,7 +34,7 @@ Invoke `$drawai-video-studio` with real content and references, then review dire
 
 | Item | Current source of truth |
 | --- | --- |
-| Source version | `0.1.0` · [Release](https://github.com/tangyixiao/drawai-video-studio/releases) |
+| Source version | `0.1.1` · [Release](https://github.com/tangyixiao/drawai-video-studio/releases) |
 | Distribution | `skill` · [Releases](https://github.com/tangyixiao/drawai-video-studio/releases) |
 | Node.js | `>=20 (video CLI)` |
 | Development | [Open issues](https://github.com/tangyixiao/drawai-video-studio/issues?q=is%3Aissue+is%3Aopen) · [CI](https://github.com/tangyixiao/drawai-video-studio/actions) |
