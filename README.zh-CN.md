@@ -1,8 +1,10 @@
-<p align="center"><img src="skills/drawai-video-studio/assets/logo.webp" width="128" height="128" alt="DrawAI Video Studio logo"></p>
+<p align="center"><img src="skills/drawai-video-studio/assets/logo.webp" width="192" height="192" alt="DrawAI Video Studio logo"></p>
 
 <h1 align="center">DrawAI Video Studio</h1>
 
 <p align="center">用 Remotion、React 和可编辑分镜制作代码视频，从真实参考、短样片到渲染与质检。</p>
+
+<p align="center"><a href="https://github.com/tangyixiao/drawai-video-studio"><img src="docs/assets/banner-zh-CN.svg" width="100%" alt="DrawAI Video Studio — 查看项目与使用说明"></a></p>
 
 <p align="center"><a href="README.zh-CN.md">简体中文</a> · <a href="README.md">English</a></p>
 
