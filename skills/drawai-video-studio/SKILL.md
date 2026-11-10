@@ -2,7 +2,7 @@
 name: drawai-video-studio
 description: 用代码（Remotion + React + three/WebGL）做视频：建工程、写场景、出定调帧、渲样片与整片、做声音、帧检、导出剪映。用于"把一段内容做成能播的片子"，不依赖 DrawAI 插件，也不需要画布。
 metadata:
-  adapter-version: "0.1.1"
+  adapter-version: "0.1.2"
   upstream-author: fourzkw / DrawAI
   upstream-version: "0.4.2"
   upstream-commit: f4932d75f96d89ef33ab861699534599d897c76c

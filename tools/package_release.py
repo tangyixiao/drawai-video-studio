@@ -5,7 +5,7 @@ import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 SKILL = 'drawai-video-studio'
-VERSION = '0.1.1'
+VERSION = '0.1.2'
 EXCLUDED = {'node_modules', '.runtime', '.out', '__pycache__', '.git'}
 
 

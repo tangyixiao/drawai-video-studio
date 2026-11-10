@@ -34,7 +34,7 @@ python tools/install.py
 
 | 项目 | 当前依据 |
 | --- | --- |
-| 源码版本 | `0.1.1` · [Release](https://github.com/tangyixiao/drawai-video-studio/releases) |
+| 源码版本 | `0.1.2` · [Release](https://github.com/tangyixiao/drawai-video-studio/releases) |
 | 分发方式 | `skill` · [Releases](https://github.com/tangyixiao/drawai-video-studio/releases) |
 | Node.js | `>=20 (video CLI)` |
 | 开发状态 | [Open issues](https://github.com/tangyixiao/drawai-video-studio/issues?q=is%3Aissue+is%3Aopen) · [CI](https://github.com/tangyixiao/drawai-video-studio/actions) |
