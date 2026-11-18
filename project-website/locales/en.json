@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "description": "Build editable Remotion and React projects from footage, storyboards and a timeline, then use a short pilot to settle the visual direction."
+  },
+  "pages": {
+    "home": {
+      "title": "Review one shot before rendering the whole video · {project}"
+    },
+    "features": {
+      "title": "Features · {project}",
+      "description": "Build editable Remotion and React projects from footage, storyboards and a timeline, then use a short pilot to settle the visual direction."
+    },
+    "download": {
+      "title": "Get started · {project}",
+      "description": "Run python tools/install.py from the repository root. A full render also requires FFmpeg, a browser and Remotion."
+    },
+    "community": {
+      "title": "Community · {project}",
+      "description": "Find usage guidance, follow discussions and review changes to this project."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "download": "Get started",
+    "community": "Community"
+  },
+  "ui": {
+    "skip_link": "Skip to main content",
+    "navigation": "Main navigation",
+    "open_navigation": "Open navigation",
+    "close_navigation": "Close navigation",
+    "language": "Choose language",
+    "theme": "Choose theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "platforms": "Supported platforms",
+    "github": "GitHub",
+    "view_image": "View full illustration",
+    "feature_more": "Explore features",
+    "download": "Read the production guide",
+    "release_notes": "Source repository",
+    "documentation": "Documentation",
+    "source": "Source repository",
+    "illustration": "First steps",
+    "license": "MIT adapter · upstream notices"
+  },
+  "hero": {
+    "title": [
+      "Review one shot before rendering the whole video"
+    ],
+    "description": [
+      "Build editable Remotion and React projects from footage, storyboards and a timeline, then use a short pilot to settle the visual direction."
+    ],
+    "primary_action": "Read the production guide",
+    "secondary_action": "Explore features"
+  },
+  "preview": {
+    "caption": "A frame from the six-second paper storyboard pilot. Its type, paper layers and proofing marks are editable.",
+    "image": {
+      "alt": "Paper storyboard pilot frame with the Chinese title on the left and three layered grayscale storyboard panels on the right",
+      "caption": "A frame from the six-second paper storyboard pilot. Its type, paper layers and proofing marks are editable."
+    }
+  },
+  "features": {
+    "title": "Project features",
+    "groups": [
+      {
+        "title": "Keep shots editable",
+        "description": "Scenes live in TSX, so text, timing and composition stay editable in the same project.",
+        "detail": "",
+        "icon": "layers"
+      },
+      {
+        "title": "Check picture and sound",
+        "description": "Review representative frames and a pilot before inspecting picture, audio and final output. A paper-storyboard example is included.",
+        "detail": "",
+        "icon": "book"
+      }
+    ]
+  },
+  "getting_started": {
+    "title": "Get started · {project}",
+    "steps": [
+      {
+        "title": "Install the standalone skill",
+        "description": "Run python tools/install.py from the repository root. A full render also requires FFmpeg, a browser and Remotion.",
+        "icon": "book"
+      },
+      {
+        "title": "Bring real material",
+        "description": "Invoke $drawai-video-studio with your content, references and target duration. Review the direction frames and short pilot first.",
+        "icon": "link"
+      }
+    ]
+  },
+  "community": {
+    "title": "Community · {project}",
+    "description": "Find usage guidance, follow discussions and review changes to this project.",
+    "links": [
+      {
+        "label": "Help and feedback",
+        "description": "Browse existing reports or describe a reproducible problem.",
+        "icon": "book"
+      },
+      {
+        "label": "Join the discussion",
+        "description": "Read existing topics or share questions and ideas.",
+        "icon": "link"
+      },
+      {
+        "label": "Review changes",
+        "description": "Review open pull requests or prepare a contribution.",
+        "icon": "code"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "{copyright}"
+  }
+}
