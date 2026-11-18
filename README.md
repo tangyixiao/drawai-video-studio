@@ -66,3 +66,7 @@ The external chart uses real star records and may be cached or unavailable; no d
 
 
 Adapted from [fourzkw/dsh-drawai](https://github.com/fourzkw/dsh-drawai); upstream engine notices are retained in [NOTICE.md](NOTICE.md).
+
+## Project website
+
+Download or clone this repository, then open the [English homepage](project-website/site/en/index.html) or [中文首页](project-website/site/index.html) in your browser. Both versions work offline.
